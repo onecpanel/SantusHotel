@@ -1,3 +1,21 @@
 body{
     background-image: url(../img/bedroom-g2c55bffe7_1920.jpg);
+    height: 30em;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.myimg div img{
+    width: 80%;
+    border-radius: 10px;
+}
+
+.myimg div{
+    display: inline-flex;
+    margin-top: 30%;
+}
+
+.myimg div a img:hover{
+       width: 95%;
 }
