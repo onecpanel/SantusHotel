@@ -1,9 +1,18 @@
 body{
     background-image: url(../img/bedroom-g2c55bffe7_1920.jpg);
-    height: 30em;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.navbar-brand{
+    float: right;
+    color: white;
+}
+
+ul .nav-item{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
 }
 
 .myimg div img{
@@ -13,9 +22,13 @@ body{
 
 .myimg div{
     display: inline-flex;
-    margin-top: 30%;
+    margin-left: 5%;
 }
 
 .myimg div a img:hover{
-       width: 95%;
+       width: 90%;
+}
+
+.myimg div img{
+    
 }
